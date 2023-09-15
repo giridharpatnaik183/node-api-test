@@ -14,6 +14,11 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^7.0.5"
-    "sonar": "sonarqube-10.1.0.73491"
+    "scripts": {
+  "start": "node server.js",
+  "test": "mocha tests/",
+  "sonar": "sonar-scanner"
+}
+
   }
 }
