@@ -17,7 +17,7 @@
     "scripts": {
   "start": "node server.js",
   "test": "mocha tests/",
-  "sonar-scanner": "10.1.0.73491"
+  "sonar-scanner": "^10.1.0.73491"
 }
 
   }
